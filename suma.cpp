@@ -1,0 +1,16 @@
+#include<conio.h>
+#include<math.h>
+#include<stdio.h>
+
+int main()
+{
+	int a,b,c;
+	printf("El primer numero es: ");
+	scanf("%d", &a);
+	printf("El segundo numero es: ");
+	scanf("%d", &b);
+	c= a+b;
+	printf("El Resultado es: %d",c);
+	getch();
+	return 0;
+}
